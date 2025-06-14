@@ -1,25 +1,26 @@
 {
-  "name": "agv-fleet-calculator",
-  "version": "1.0.0",
-  "description": "Professional AGV Fleet Sizing Calculator",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
-  },
-  "homepage": "https://kmcmillin14.github.io/AGV_Fleet_Calculator",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "recharts": "^2.8.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.0.0",
-    "tailwindcss": "^3.3.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "gh-pages": "^6.0.0"
+    "name": "agv-fleet-calculator",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Professional AGV Fleet Sizing Calculator",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "deploy": "npm run build && gh-pages -d dist"
+    },
+    "homepage": "https://kmcmillin14.github.io/AGV_Fleet_Calculator",
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "recharts": "^2.8.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.0.0",
+      "tailwindcss": "^3.3.0",
+      "autoprefixer": "^10.4.14",
+      "postcss": "^8.4.24",
+      "gh-pages": "^6.0.0"
+    }
   }
-}
